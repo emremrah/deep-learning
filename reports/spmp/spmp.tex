@@ -1,0 +1,206 @@
+\documentclass[12pt,a4paper]{article}
+
+% Türkçe %
+\usepackage[utf8]{inputenc} %Türkçe karakterler için
+\usepackage[T1]{fontenc}
+\renewcommand{\tablename}{Tablo}
+\renewcommand{\figurename}{Şekil}
+\renewcommand{\indexname}{Dizin}
+\renewcommand{\listfigurename}{Şekiller}
+\renewcommand{\listtablename}{Tablolar}
+\renewcommand{\contentsname}{İçindekiler}
+\renewcommand{\refname}{Kaynaklar}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+% Türkçe %
+
+\usepackage{geometry}
+\usepackage{graphicx} %Resim koymak için
+\usepackage{times} %Times fontu
+\usepackage[nottoc]{tocbibind}
+\usepackage{url}
+\usepackage{array}
+\usepackage{tabu}
+
+\begin{document}
+   \pagenumbering{gobble}
+   \input{kapak/kapak.tex}
+   \newpage
+
+   \section*{Revizyonlar}
+   \begin{center}
+      \begin{tabu} to 1.0\textwidth {| X[l] |  X[c] |  X[c] | X[c] |}
+      \hline
+      Revizyon & Tarih & Güncelleyen & Yorum \\[0.5ex]
+      \hline\hline
+      0.1 & 01.11.2017 & Muhammed Emre Emrah & Belgenin yazılması. \\
+      \hline
+      \end{tabu}
+   \end{center}
+   \newpage
+
+   \pagenumbering{roman}
+   \tableofcontents
+   \newpage
+
+   \pagenumbering{arabic}
+
+   \section{GİRİŞ}
+   Bu bölümde belge için temel teşkil eden kısımlar sunulmuştur. Proje kısaca açıklanmış ve proje çıktıları belirtilmiştir.
+
+   \subsection{Projeye Genel Bakış}
+   Bu proje bir derin öğrenme uygulamasıdır. \textit{Yapay Sinir Ağları} başta olmak üzere başarısı test edilmiş derin öğrenme yöntemlerinin uygulanması
+   gerçekleştirilecektir.
+
+   \subsection{Proje Çıktıları}
+   Projenin 4 çıktısı mevcuttur. Bunlar,
+   \begin{itemize}
+      \item SPMP (Yazılım Proje Yönetim Planı) Belgesi
+      \item SRS (Yazılım Gereksinim Belirtimi) Belgesi
+      \item Ara Rapor
+      \item SDD (Yazılım Tasarım Tanımlama) Belgesi
+      \item STD (Yazılım Test Dokümanı) Belgesi
+      \item Son Rapor
+   \end{itemize}
+   olup, zaman çizelgesi için lütfen bölüm \ref{timetable}'e müracaat ediniz.
+
+   \section{PROJE ORGANİZASYONU}
+   \subsection{Yazılım Süreç Modeli}
+   Projede Çevik yazılım süreç modeli kullanılacaktır. Bu modelin seçilmesindeki temel neden anlaşılabilir olması, hem tüm projeye hem de projenin içindeki küçük görevlere de uygulanabilir olması, aşamalarının kısıtlayıcı olmamasıdır. 
+
+   \subsection{Roller ve Sorumluluklar}
+   Bu proje üç kişi tarafından geliştirilmektedir. Takım üyeleri aşağıda listelenmiştir:
+   \begin{itemize}
+      \item Abdullah AKALIN
+      \item Karim El Guermai
+      \item Muhammed Emre Emrah
+   \end{itemize}
+
+   Ayrıca üyelerin rolleri aşağıda tablo halinde verilmiştir:
+
+   \begin{center}
+      \begin{tabular}{||l r||}
+      \hline
+      Kişi & Görev \\[0.5ex]
+      \hline\hline
+      Abdullah AKALIN & Proje Yönetimi \\
+      \hline
+      Karim El Guermai & Model Optimizasyonu \\
+      \hline
+      Muhammed Emre Emrah & Yazılım Uygulama \\
+      \hline
+      \end{tabular}
+   \end{center}
+
+   Tabloda belirtilen ana rollerin yanısıra her üyenin yan rolleri bulunmaktadır. Buna göre, her üye projenin kodlama, test ve analiz kısımlarında aktif olarak rol alacak olup, her üye kendi ürettiği kodun testini yapacaktır. 
+
+   \subsection{Araçlar ve Teknikler}
+   Bu proje Python dili ile, \textit{Keras} ve/veya \textit{Tensor Flow} kütüphanelerinin yanısıra çeşitli veri bilimi kütüphaneleri kullanılarak geliştirilecektir.
+
+   Tensorflow açık kaynaklı bir yazılım kütüphanesi olup, özellikle de sayısal hesaplamalar ve veri akış grafiklerinde kullanılır. Özelliği, grafikteki düğümler matematiksel operasyonları tanımlarken, bunların aralarındaki bağlantılar da (tensorlar), bu işlemler arsındaki işlemlere tabi tutulan çok boyutlu dizileri temsil eder.
+   Esnek bir yapı olan Tensorflow CPU ve GPU hesaplamalarında da kullanılırken, asıl ortaya çıkışı makine öğrenmesi ve derin öğrenme alanındaki ihtiyaçtan kaynaklanmıştır. \cite{tf}
+
+   Keras Phyton dilinde yazılmış yüksek seviyeli bir nöral ağ API'si olup, asıl olarak TensorFlow, CNTK ya da Theano kütüphanelerini kullanır. Ortaya çıkmış olan fikirden direkt olarak sonuca ulaşmayı minimum eforla başarmayı amaçlar. Hızlı ve kolay bir şekilde prototiplemeyi sağlar. Özellikle Convolutional Network ve Recurrent Network yöntemlerini uygulamaya geçirmeyi sağlar. Yine Tensorflow gibi CPU ve GPU'yu etkili bir şekilde kullanabilir. \cite{keras}
+   
+   Projenin versiyon takibi için \textit{git} yazılımı tercih edilmiştir. Ayrıca grup çalışmasını kolaylaştırmak amacıyla proje için bir \textit{github repository} oluşturulacaktır.
+
+   \section{PROJE YÖNETİM PLANI}
+   \subsection{Görevler}
+   \subsubsection{Derin Öğrenme Yöntemlerinin Araştırılması}
+   \paragraph{Açıklama}
+   Bu görevde, bu mecrada kullanılan metodoloji araştırılacaktır. Yaygın kullanılan yöntemler ve yaklaşımların Python dilindeki uygulamaları öğrenilecektir.
+   \paragraph{Çıktılar ve Kilometre Taşları}
+   Bu görevin nihayetinde ihtiyacımız olan ön bilgiler elde edilmiş olacaktır.
+
+   \paragraph{Gerekli Kaynaklar}
+   Gerekli kaynaklar veri setleridir.
+
+   \paragraph{Bağımlılıklar ve Kısıtlar}
+   Elde edilen veri setinin işlenmek için uygun olması gerekmektedir. İşlenmiş veriden gerekli çıkarımların yapılabilmesi gerekmektedir.
+
+   \paragraph{Riskler}
+   İhtiyaç duyulan verinin elde edilememesi durumunda uygulama yapılamayacaktır.
+
+
+   \subsubsection{Verinin Elde Edilmesi ve Hazırlanması}
+   \paragraph{Açıklama}
+   Bu görevde ihtiyaç duyulan veriler elde edilip, kullanılacak yöntemlere göre hazır hale getirilecektir.
+
+   \paragraph{Çıktılar ve Kilometre Taşları}
+   Beklenen çıktılar işlenmiş ve uygulanmaya hazır verilerdir.
+
+   \paragraph{Gerekli Kaynaklar}
+   Verinin hazırlanması için dış kaynağa ihtiyaç olmayıp, bazı durumlarda hazırlıkların el ile yapılması gerekebilir.
+
+   \paragraph{Bağımlılıklar ve Kısıtlar}
+   Temel kısıt, veride var olabilecek pürüzlerdir.
+
+   \paragraph{Riskler}
+   İşlenmiş verinin ihtiyacı karşılamaması.
+
+
+   \subsubsection{Modelin Eğitilmesi}
+   \paragraph{Açıklama}
+   Bu görevde hazırlanan veriler, kullanılmasında karar kılınan modellerin eğitilmesinde kullanılacaktır.
+
+   \paragraph{Çıktılar ve Kilometre Taşları}
+   Beklenen çıktılar, eğitilmeye uygun modellerdir.
+   
+   \paragraph{Gerekli Kaynaklar}
+   Algoritmalar ve algoritmalar hakkında bilgi sahibi olunması gerekmektedir.
+
+   \paragraph{Bağımlılıklar ve Kısıtlar}
+   Modelin eğitilmesi için verinin yeterli olması gerekmektedir. 
+
+   \paragraph{Riskler}
+   Verinin yeterli olmaması halinde model eğitilemeyecektir.
+
+
+   \subsubsection{Test ve Analiz}
+   \paragraph{Açıklama}
+   Bu görevde eğitilen modelin test edilmesi ve test sonuçlarının analiz edilmesi işleri yapılacaktır.
+
+   \paragraph{Çıktılar ve Kilometre Taşları}
+   Sonuçlar başarı yüzdesi şeklinde elde edilecektir. Eğitimli model daha önce karşılaşmadığı test setinde denenecektir.
+
+   \paragraph{Gerekli Kaynaklar}
+   Bu aşamaya kadarki gerekli kaynakların sağlanması gereğinden başka bir kaynak gerekmemektedir.
+
+   \paragraph{Bağımlılıklar ve Kısıtlar}
+   Eğitim setinde yapılan tüm manipülasyonların test setinde de yapılması gerekmektedir.
+
+   \paragraph{Riskler}
+   Modelin beklenen başarıya ulaşamaması risk teşkil etmektedir.
+
+
+   \subsection{Atamalar}
+   Her görevde her üyenin aktif olarak çalışması planlanmaktadır.
+
+
+   \subsection{Zaman Çizelgesi} \label{timetable}
+   \begin{center}
+      \begin{tabu} to 1.0\textwidth {| X[l] |  X[c] |  X[c] |}
+      \hline
+      Tarih & Belge & Amaç \\[0.5ex]
+      \hline\hline
+      01.11.2017 & SPMP & Yazılım alt sistemlerinin ve bunların teslim tarihinin belirtilmesi. \\
+      \hline
+      13.11.2017 & SRS & Tasarım ve test süreçlerine ışık tutacak gereksinim listesinin eksiksiz ve tutarlı biçimde ortaya konması. \\
+      \hline
+      27.11.2017 & Ara Rapor & Bu güne kadarki yapılan çalışmaların değerlendirilmesi. \\
+      \hline
+      11.12.2017 & SDD & Uygulama ve testlere ışık tutacak olan tasarım detaylarının ve süreç içerisinde alınan tasarım kararlarının belirtilmesi. \\
+      \hline
+      01.01.2018 & STD & Yazılım test sürecinin dokümantasyonunun sağlanması.  \\
+      \hline
+      08.01.2018 & Son Rapor & Projenin teslim edilmesi.  \\
+      \hline
+      \end{tabu}
+   \end{center}
+
+   \newpage
+   \bibliography{kaynak}
+   \bibliographystyle{ieeetr}
+
+\end{document}
+

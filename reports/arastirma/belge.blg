@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: belge.aux
+The style file: ieeetr.bst
+Database file #1: kaynakca/kaynakca.bib
+You've used 9 entries,
+            1876 wiz_defined-function locations,
+            510 strings with 4415 characters,
+and the built_in function-call counts, 1109 in all, are:
+= -- 109
+> -- 22
+< -- 0
++ -- 13
+- -- 4
+* -- 46
+:= -- 140
+add.period$ -- 16
+call.type$ -- 9
+change.case$ -- 9
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 46
+empty$ -- 161
+format.name$ -- 4
+if$ -- 295
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 2
+newline$ -- 37
+num.names$ -- 2
+pop$ -- 62
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 23
+stack$ -- 0
+substring$ -- 0
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 2
+width$ -- 10
+write$ -- 76

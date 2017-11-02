@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{colorful}
+R.~Zhang, P.~Isola, and A.~A. Efros, ``Colorful image colorization,'' {\em
+  CoRR}, vol.~abs/1603.08511, 2016.
+
+\bibitem{imagenet}
+``Imagenet.'' {\url{http://www.image-net.org/}}.
+\newblock Erişim tarihi: 19.10.2017.
+
+\bibitem{sun}
+``Sun database.'' {\url{https://groups.csail.mit.edu/vision/SUN/}}.
+\newblock Erişim tarihi: 19.10.2017.
+
+\bibitem{trans}
+A.~J. Champandard, ``Semantic style transfer and turning two-bit doodles into
+  fine artworks,'' {\em CoRR}, vol.~abs/1603.01768, 2016.
+
+\bibitem{vgg}
+``Vgg practical.'' {\url{http://www.robots.ox.ac.uk/~vgg/practicals/cnn/}}.
+\newblock Erişim tarihi: 19.10.2017.
+
+\bibitem{minst}
+``The minst database of handwritten digits.''
+  {\url{http://yann.lecun.com/exdb/mnist/}}.
+\newblock Erişim tarihi: 22.10.2017.
+
+\bibitem{svhn}
+``The street view house numbers (svhn) dataset.''
+  {\url{http://ufldl.stanford.edu/housenumbers}}.
+\newblock Erişim tarihi: 22.10.2017.
+
+\bibitem{drvr}
+``Drivers, focusing on your driving!.''
+  {\url{http://cs229.stanford.edu/proj2016/poster/SamCenLuo-ClassificationOfDriverDistraction-poster.pdf}}.
+\newblock Erişim tarihi: 22.10.2017.
+
+\bibitem{sower}
+``Stack overflow query outcome prediction.''
+  {\url{http://cs229.stanford.edu/proj2016/poster/LinJones-Stack\%20Overflow\%20Query\%20Outcome\%20Prediction-poster.pdf}}.
+\newblock Erişim tarihi: 22.10.2017.
+
+\end{thebibliography}

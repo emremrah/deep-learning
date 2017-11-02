@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Derin \IeC {\"O}\IeC {\u g}renme: Tan\IeC {\i }mlar ve Y\IeC {\"o}ntemler}{1}
+\contentsline {subsection}{\numberline {1.1}Evri\IeC {\c s}imli Yapay Sinir A\IeC {\u g}lar\IeC {\i } (CNN)}{1}
+\contentsline {subsection}{\numberline {1.2}Regresyon Yapay Sinir A\IeC {\u g}lar\IeC {\i } (RNN)}{1}
+\contentsline {subsection}{\numberline {1.3}Peki\IeC {\c s}tirmeli \IeC {\"O}\IeC {\u g}renme}{1}
+\contentsline {section}{\numberline {2}Proje \IeC {\.I}ncelemeleri}{2}
+\contentsline {subsection}{\numberline {2.1}G\IeC {\"o}r\IeC {\"u}nt\IeC {\"u} Renklendirme}{2}
+\contentsline {subsection}{\numberline {2.2}Resimlerde Stil Transferi}{2}
+\contentsline {subsection}{\numberline {2.3}El Yaz\IeC {\i }s\IeC {\i }yla Yaz\IeC {\i }lm\IeC {\i }\IeC {\c s} Rakamlar\IeC {\i } Tan\IeC {\i }ma}{3}
+\contentsline {subsection}{\numberline {2.4}Google Street View Apartman Numaralar\IeC {\i }}{4}
+\contentsline {subsection}{\numberline {2.5}Drivers, Focusing on Your Driving!}{4}
+\contentsline {subsection}{\numberline {2.6}Stack Overflow Query Outcome Prediction}{4}
+\contentsline {section}{Kaynaklar}{6}
