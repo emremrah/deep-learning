@@ -1,0 +1,41 @@
+\contentsline {section}{\numberline {1}KAPSAM}{1}
+\contentsline {subsection}{\numberline {1.1}Tan\IeC {\i }m}{1}
+\contentsline {subsection}{\numberline {1.2}Genel Bak\IeC {\i }\IeC {\c s}}{1}
+\contentsline {subsection}{\numberline {1.3}Dok\IeC {\"u}mana Genel Bak\IeC {\i }\IeC {\c s}}{1}
+\contentsline {section}{\numberline {2}\IeC {\.I}LG\IeC {\.I}L\IeC {\.I} DOK\IeC {\"U}MANLAR}{1}
+\contentsline {section}{\numberline {3}GEREKS\IeC {\.I}N\IeC {\.I}MLER}{1}
+\contentsline {subsection}{\numberline {3.1}Gerekli Durum ve Modlar}{1}
+\contentsline {subsection}{\numberline {3.2}Fonksiyonel Gereksinimler}{2}
+\contentsline {subsubsection}{\numberline {3.2.1}Problemin Modellenmesi}{2}
+\contentsline {subsubsection}{\numberline {3.2.2}Algoritman\IeC {\i }n E\IeC {\u g}itilmesi}{2}
+\contentsline {subsubsection}{\numberline {3.2.3}Sonu\IeC {\c c}lar\IeC {\i }n Test Edilmesi}{2}
+\contentsline {subsubsection}{\numberline {3.2.4}\IeC {\c C}\IeC {\i }kt\IeC {\i } \IeC {\"U}retilmesi}{2}
+\contentsline {subsection}{\numberline {3.3}D\IeC {\i }\IeC {\c s} Aray\IeC {\"u}z Gereksinimleri}{2}
+\contentsline {subsubsection}{\numberline {3.3.1}Aray\IeC {\"u}z Tan\IeC {\i }mlamas\IeC {\i }}{2}
+\contentsline {subsection}{\numberline {3.4}Dahili Aray\IeC {\"u}z Gereksinimleri}{2}
+\contentsline {subsection}{\numberline {3.5}Dahili Veri Gereksinimleri}{3}
+\contentsline {subsection}{\numberline {3.6}Uyarlama Gereksinimleri}{3}
+\contentsline {subsection}{\numberline {3.7}Emniyet Gereksinimleri}{3}
+\contentsline {subsection}{\numberline {3.8}G\IeC {\"u}venlik ve Gizlilik Gereksinimleri}{3}
+\contentsline {subsection}{\numberline {3.9}Ortam Gereksinimleri}{3}
+\contentsline {subsection}{\numberline {3.10}Bilgisayar Kaynak Gereksinimleri}{3}
+\contentsline {subsubsection}{\numberline {3.10.1}Bilgisayar Donan\IeC {\i }m Gereksinimleri}{3}
+\contentsline {subsubsection}{\numberline {3.10.2}Bilgisayar Donan\IeC {\i }m\IeC {\i } Kaynak Kullan\IeC {\i }m\IeC {\i } Gereksinimleri}{3}
+\contentsline {subsubsection}{\numberline {3.10.3}Bilgisayar Yaz\IeC {\i }l\IeC {\i }m Gereksinimleri}{3}
+\contentsline {subsubsection}{\numberline {3.10.4}Bilgisayar \IeC {\.I}leti\IeC {\c s}im Gereksinimleri}{4}
+\contentsline {subsection}{\numberline {3.11}Yaz\IeC {\i }l\IeC {\i }m Kalite Fakt\IeC {\"o}rleri}{4}
+\contentsline {paragraph}{\numberline {3.11.0.1}Esneklik}{4}
+\contentsline {paragraph}{\numberline {3.11.0.2}Uyumluluk}{4}
+\contentsline {paragraph}{\numberline {3.11.0.3}Kullan\IeC {\i }labilirlik}{4}
+\contentsline {paragraph}{\numberline {3.11.0.4}\IeC {\.I}zlenebilirlik}{4}
+\contentsline {subsection}{\numberline {3.12}Tasar\IeC {\i }m ve Uygulama K\IeC {\i }s\IeC {\i }tlamalar\IeC {\i }}{4}
+\contentsline {subsection}{\numberline {3.13}Personelle \IeC {\.I}lgili Gereksinimler}{4}
+\contentsline {subsection}{\numberline {3.14}E\IeC {\u g}itimle \IeC {\.I}lgili Gereksinimler}{4}
+\contentsline {subsection}{\numberline {3.15}Lojistikle \IeC {\.I}lgili Gereksinimler}{4}
+\contentsline {subsection}{\numberline {3.16}Di\IeC {\u g}er Gereksinimler}{4}
+\contentsline {subsection}{\numberline {3.17}Ambalajlama Gereksinimleri}{5}
+\contentsline {subsection}{\numberline {3.18}Gereksinimlerin \IeC {\"O}nceli\IeC {\u g}i ve Kritikli\IeC {\u g}i}{5}
+\contentsline {section}{\numberline {4}VASIFLANDIRMA Y\IeC {\"O}NTEMLER\IeC {\.I}}{5}
+\contentsline {section}{\numberline {5}NOTLAR}{5}
+\contentsline {subsection}{\numberline {5.1}S\IeC {\"o}zl\IeC {\"u}k ve K\IeC {\i }saltmalar}{5}
+\contentsline {section}{\numberline {A}Ek-A. Sistem Ak\IeC {\i }\IeC {\c s} Diyagram\IeC {\i }}{}
