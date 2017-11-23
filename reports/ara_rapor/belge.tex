@@ -1,0 +1,113 @@
+
+\documentclass[12pt,a4paper]{article}
+
+% Türkçe %
+\usepackage[utf8]{inputenc} %Türkçe karakterler için
+\usepackage[T1]{fontenc}
+\renewcommand{\tablename}{Tablo}
+\renewcommand{\figurename}{Şekil}
+\renewcommand{\indexname}{Dizin}
+\renewcommand{\listfigurename}{Şekiller}
+\renewcommand{\listtablename}{Tablolar}
+\renewcommand{\contentsname}{İçindekiler}
+\renewcommand{\refname}{Kaynaklar}
+% Türkçe %
+
+\usepackage{pdfpages}
+\usepackage{geometry}
+\usepackage{graphicx} %Resim koymak için
+\usepackage{times} %Times fontu
+\usepackage{graphicx}
+\usepackage[nottoc]{tocbibind}
+\usepackage{url}
+
+\begin{document}
+
+    \pagenumbering{gobble}
+    \input{kapak/kapak.tex}
+    \newpage
+
+    \pagenumbering{roman}
+    \tableofcontents
+    \newpage
+
+    \pagenumbering{arabic}
+
+    \section{Giriş}
+    Bu belge, proje grubumuzun şimdiye değin yaptığı çalışma ve araştırmaları hülasa etmektedir.
+    Projemize dair sair teferruat daha önce sunulmuş olan SPMP\footnote{https://github.com/emremrah/deep-learning/blob/master/reports/spmp/spmp.pdf} ve SRS\footnote{https://github.com/emremrah/deep-learning/blob/master/reports/srs/srs.pdf} raporlarında mevcut olup,
+    ihtiyaç halinde müracaat edilmesi rica olunur. 
+
+    Belgenin devamında yapılan çalışmalar başlıklar halinde sıralanmış, her bir çalışmanın teferruatı beyan edilmiştir. Sonuç kısmında ise, mevcut durum değerlendirilip, sonraki çalışmalarımız için yol haritası belirlenmeye gayret edilmiştir.
+
+    \section{Kullanılacak Araç ve Yöntemler}
+    Yapılacak olan derin öğrenme projesi için Python dili ve Keras kütüphanesinin kullanılmasına karar verilmiştir.
+    Bu kararların veriliş süreci \ref{yap} numaralı bölümde adım adım işlenmiştir. Ayrıca raporlanma ve sunum kolaylığı
+    sunması, yapay öğrenmede sıklıkla tercih edilmesi sebebiyle Jupyter interaktif web uygulaması\footnote{http://jupyter.org/} geliştirme ve sunum ortamı olarak
+    kullanılacaktır.
+
+    \section{Yapılan Çalışmalar} \label{yap}
+    \subsection{Kaynak Araştırması}
+    \subsubsection{Açıklama}
+    Bu aşamada yapay öğrenmeye dair araştırmalar gerçekleştirilmiştir. İlgili kaynaklar taranmış ve yapay öğrenmenin uygulama alanları araştırılmıştır.
+    Stanford Üniversitesi'ne ait yapay öğrenme projelerinin ayrıntılı listesine ulaşılıp, yapılmış olan projeler etraflıca tetkik edilmiştir.
+
+    \subsubsection{Amaç}
+    Bu görevin amacı, ne türlü projeler yapılabileceğini görüp, istikametimizi tayin etmek olmuştur. 
+    Ayrıca bu sahada kullanılan terminolojiye aşinalık kazanmak hedeflenmiştir.
+
+    \subsubsection{Kazanımlar}
+    Yapılan araştırmalar neticesinde, yapay öğrenmenin ses tanımadan, yüz tanımaya pek çok işte kullanıldığı öğrenilmiş,
+     görüntü işlemedeki kullanım alanı dikkatimizi celbetmiştir. Grubumuz, danışman tarafından araştırma alanını
+     daraltmaya yönlendirilmiştir. Ayrıca grubumuz, yine danışman tarafından, derin öğrenme konusunu araştırmaya teşvik edilmiştir.
+
+    \subsection{Proje İncelemeleri}
+    \subsubsection{Açıklama}
+    Bu aşamada, bir önceki adımda incelenen projelere ilave olarak derin öğrenme ve derin öğrenme projeleri araştırılmıştır. Her üye kendince beğendiği iki projeyi ele almış
+    ve ayrıntılı araştırmıştır. Yapılan araştırmalar raporlanıp danışmana sunulmuştur\footnote{https://github.com/emremrah/deep-learning/blob/master/reports/arastirma/belge.pdf}.
+
+    \subsubsection{Amaç}
+    Bu çalışmamızdaki amaç, genelden özele geçiş yapmak, derin öğrenmeyi araştırmak ve bu alandaki projeleri incelemek olmuştur. Herbir üye ikişer proje ele almış, toplam altı proje incelenmiştir. 
+    İncelenen projelerde kullanılan metodların irdelenmesi de bu adımın amaçlarından olmuştur.
+
+    \subsubsection{Kazanımlar}
+    Seçilen projelerinin beşinin görüntü işlemeye, birinin doğal dil işlemeye ait olduğu görülmüştür. Bu sonuçtan yola çıkılarak, görüntü işlemeye dair bir proje geliştirme kararı alınmıştır.
+    Grubumuz bu aşamada derin öğrenme uygulamaları geliştirmek için platform seçmeye yönlendirilmiştir. Ayrıca giriş alıştırması mahiyetinde bir uygulama geliştirilmesi istenmiştir.
+    Grubumuz gerekli araştırmaları yapmış ve Python programlama dili ile bu dile ait Keras derin öğrenme kütüphanesini kullanmaya karar vermiştir.
+
+    \subsection{Keras ile MNIST Verileri Üzerinde Derin Öğrenme Alıştırması}
+    \subsubsection{Açıklama}
+    Bu adımda Keras kütüphanesi kullanılarak eğitim için yaygın bir şekilde kullanılan MNIST el yazısı veri seti ile bir derin öğrenme uygulaması gerçekleştirilmiştir. 
+    Uygulama Python programlama dili ile Jupyter Notebook yazılımı üzerinde geliştirilmiş olup internet üzerinden paylaşılmıştır.\footnote{https://github.com/emremrah/deep-learning/blob/master/src/mnist\_tutorial/keras\_tutorial.ipynb}
+    \subsubsection{Amaç}
+    Keras kütüphanesinin kullanım şeklini öğrenmek, bir derin öğrenme modelinin nasıl oluşturulduğunu öğrenmek ana gayemiz olmuştur. Ayrıca verilerin modellenmeden önce geçmesi gereken önişlemlerin
+    öğrenilmesi istenilmiştir.
+
+    \subsubsection{Kazanımlar}
+    Derin öğrenmenin uygulanmasına dair tecrübe elde edilmiştir. Derin öğrenmede kullanılan terminoloji hakkında bilgi edinilmiştir. Bu adımdan sonra grubumuz derin öğrenme ile nesne tanıma alıştırması
+    yapmaya teşvik edilmiştir.
+
+    \subsection{Keras ile CIFAR-10 Verileri Üzerinde Nesne Sınıflandırma Alıştırması}
+    \subsubsection{Açıklama}
+    Keras ile CIFAR-10 verilerini kullanarak nesne tanıma uygulaması gerçekleştirilmiştir.
+    Yapılan uygulama yine Jupyter Notebook formatında internette yayınlanmıştır.\footnote{https://github.com/emremrah/deep-learning/blob/master/src/cifar\_10\_tutorial/cifar\_10\_tutor.ipynb}
+
+    \subsubsection{Amaç}
+    Bu çalışmanın amacı Keras kütüphanesini kullanarak nesne tanıma problemine uygun modellerin nasıl geliştirileceği hakkında bilgi sahibi olmak olmuştur.
+    Model performansını etkileyen amiller öğrenilmek istenmiştir. Ayrıca görüntü verilerine has önişlemlerin öğrenilmesi hedeflenmiştir.
+
+    \subsubsection{Kazanımlar}
+    Bu çalışmanın sonucunda nesne tanıma probleminin yüksek bir bilgisayar gücü gerektirdiği anlaşılmıştır.
+    Modelin derinleştirilmesi ile performansın artırılabileceği gözlenmiş olsa da, tecrübenin burada büyük rol oynadığı anlaşılmıştır.
+    Keras kütüphanesini kullanmada bir nebze daha yetkinlik kazanılmıştır.
+
+    \newpage
+
+    \section{Sonuç ve Değerlendirme}
+    Yaptığımız tüm bu çalışmalar neticesinde, daha önce çok az bir fikir sahibi olduğumuz yapay ve derin öğrenme konularına aşina olunmuştur. Bir derin öğrenme uygulamasının
+    nasıl geliştirildiği öğrenilmiştir ve gerekli araçları edinilmiştir. Sonraki aşama, kendi problemimizi belirleyip, danışmanımızın yönlendirmesiyle ve bu çalışmalardan öğrenilenlerin
+    ışığında çalışmalarımıza devam etmektir.
+
+\end{document}
+
+
