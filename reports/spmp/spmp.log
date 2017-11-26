@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.26)  31 OCT 2017 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.26)  26 NOV 2017 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -585,45 +585,50 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 
  [1]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 51.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 53.
 
-Overfull \hbox (0.15837pt too wide) in paragraph at lines 52--54
+Overfull \hbox (0.15837pt too wide) in paragraph at lines 54--56
 \T1/ptm/m/n/12 Bu proje bir de-rin ˆßrenme uygu-la-mas^^Yd^^Yr. \T1/ptm/m/it/12
  Ya-pay Sinir Aßlar^^Y \T1/ptm/m/n/12 ba≥ta ol-mak ¸zere ba≥ar^^Ys^^Y
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 58.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 60.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 58.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 60.
  [1]
-Overfull \hbox (18.92644pt too wide) in paragraph at lines 111--112
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 107.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 107.
+
+Overfull \hbox (18.92644pt too wide) in paragraph at lines 113--114
  \T1/ptm/b/n/12 3.1.1.1 AÁ^^Yk-lama[] \T1/ptm/m/n/12 Bu gˆrevde, bu mecrada kul
 -lan^^Ylan metodoloji ara≥t^^Yr^^Yla-cak-t^^Yr. Yayg^^Yn
  []
 
 [2]
-Overfull \hbox (13.80263pt too wide) in paragraph at lines 122--123
- \T1/ptm/b/n/12 3.1.1.5 Riskler[] \T1/ptm/m/n/12 ùhtiyaÁ duyu-lan verinin elde 
-edile-memesi du-ru-munda uygu-lama yap^^Yla-
- []
-
-
-Overfull \hbox (0.15898pt too wide) in paragraph at lines 144--145
+Overfull \hbox (0.15898pt too wide) in paragraph at lines 146--147
  \T1/ptm/b/n/12 3.1.3.1 AÁ^^Yk-lama[] \T1/ptm/m/n/12 Bu gˆrevde haz^^Yr-lanan v
 er-iler, kul-lan^^Yl-mas^^Ynda karar k^^Yl^^Y-nan mod-
  []
 
 
-Overfull \hbox (8.67735pt too wide) in paragraph at lines 153--154
+Overfull \hbox (0.27872pt too wide) in paragraph at lines 152--153
+ \T1/ptm/b/n/12 3.1.3.3 Gerekli Kay-naklar[] \T1/ptm/m/n/12 Al-go-rit-malar ve 
+de-rin ˆßrenme mod-el-leri hakk^^Ynda bilgi
+ []
+
+
+Overfull \hbox (8.67735pt too wide) in paragraph at lines 155--156
  \T1/ptm/b/n/12 3.1.3.4 Baß^^Ym-l^^Yl^^Yk-lar ve K^^Ys^^Yt-lar[] \T1/ptm/m/n/12
  Mod-elin eßi-tilmesi iÁin verinin yeterli ol-mas^^Y gerek-
  []
 
 [3]
-Overfull \hbox (23.09036pt too wide) in paragraph at lines 167--168
+Overfull \hbox (23.09036pt too wide) in paragraph at lines 169--170
  \T1/ptm/b/n/12 3.1.4.3 Gerekli Kay-naklar[] \T1/ptm/m/n/12 Bu a≥a-maya kadarki
  gerekli kay-naklar^^Yn saßlan-mas^^Y gereßin-
  []
@@ -635,11 +640,11 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ))
 [6] (./spmp.aux) ) 
 Here is how much of TeX's memory you used:
- 3525 strings out of 493029
- 46810 string characters out of 6136234
+ 3533 strings out of 493029
+ 46893 string characters out of 6136234
  118851 words of memory out of 5000000
- 6992 multiletter control sequences out of 15000+600000
- 26106 words of font info for 39 fonts, out of 8000000 for 9000
+ 6997 multiletter control sequences out of 15000+600000
+ 34272 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,13n,23p,507b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</
@@ -648,7 +653,7 @@ are/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on spmp.pdf (9 pages, 70957 bytes).
+Output written on spmp.pdf (9 pages, 71712 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

@@ -1,0 +1,149 @@
+
+\documentclass[12pt,a4paper]{article}
+
+% Türkçe %
+\usepackage[utf8]{inputenc} %Türkçe karakterler için
+\usepackage[T1]{fontenc}
+\renewcommand{\tablename}{Tablo}
+\renewcommand{\figurename}{Şekil}
+\renewcommand{\indexname}{Dizin}
+\renewcommand{\listfigurename}{Şekiller}
+\renewcommand{\listtablename}{Tablolar}
+\renewcommand{\contentsname}{İçindekiler}
+\renewcommand{\refname}{Kaynaklar}
+% Türkçe %
+
+\usepackage{pdfpages}
+\usepackage{geometry}
+\usepackage{graphicx} %Resim koymak için
+\usepackage{times} %Times fontu
+\usepackage{graphicx}
+\usepackage[nottoc]{tocbibind}
+\usepackage{url}
+
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+\begin{document}
+
+    \pagenumbering{gobble}
+    \input{kapak/kapak.tex}
+    \newpage
+
+    \pagenumbering{roman}
+    \tableofcontents
+    \newpage
+
+    \pagenumbering{arabic}
+
+    \section{Projenin Gerçekleştirilmesi}
+    \subsection{Proje Hedefi}
+    Bu projenin hedefi derin öğrenme yöntemleri kullanarak görüntü verilerinde nesne tanımaya yönelik problem çözmektir.
+
+    \subsection{Projede Mevcut Aşama}
+    Sunulan SPMP belgesindeki proje yönetim planında (bkz. SPMP, '3.1.2 Verinin Elde Edilmesi ve Hazırlanması') beyan edilmiş olan 
+    'Derin Öğrenme Yöntemlerinin Araştırılması' görevi tamamlanmış
+    olup, 'Verinin Elde Edilmesi ve Hazırlanması' aşamasına geçilmiştir. Bu görevde amaç, projenin amacını gerçekleştirmeye uygun ve aynı zamanda projenin
+    konusunu belirleyecek verinin bulunmasıdır.
+
+    \subsubsection{Arayüz}
+    Projenin çıktısında Python konsolu haricinde bir arayüz bulunmayacaktır.
+
+    \paragraph{Kullanılan Teknolojiler}
+    Python konsolu ve Jupyter Notebook web arayüzü kullanılmaktadır.
+
+    \paragraph{Tasarımsal Olarak Kullanılması Planlanmış, İhtiyaç Duyulan Teknolojiler}
+    Herhangi bir arayüz tasarımı yapılmayacaktır.
+    
+    \subsubsection{Yazılım Sistemi}
+
+    \paragraph{Kullanılan Teknolojiler} \label{tech}
+    Bu projede programlama dili olarak python kullanılacak olup, derin öğrenme için ise python için yazılmış Keras modülü kullanılacaktır.
+    Keras modülü arkaplanda yine bir python modülü olan Tensorflow kütüphanesini kullanmaktadır. Bunların yanı sıra yapay öğrenmede sıkça kullanılan
+    NumPy, Pandas ve scikit-learn modüllerinden yararlanılmaktadır.
+    Geliştirme ve raporlama için Jupyter Notebook aracı kullanılmaktadır.
+
+    \paragraph{Tasarımsal Olarak Kullanılması PLanlanmış, İhtiyaç Duyulan Teknolojiler}
+    Bölüm \ref{tech} kısmında belirtilen teknolojiler kullanılacak ana teknolojiler olup, bunların haricinde kullanılması gerekebilecek teknolojiler
+    henüz belli değildir.
+
+    \subsection{Projeye Dair Planlar}
+    Projenin istenilen başarıya erişmesi durumunda, arayüz tasarımı gerçekleştirilmesi planlanmaktadır.
+    Bu durumda eğitimli model keyfi veriler üzerinde, amaca yönelik işlevler gerçekleştirebilecektir.
+
+    \subsubsection{Kullanılması Planlanan Diğer Teknolojiler}
+    Sahip olunan bilgisayar kaynaklarının derin öğrenme modelinin eğitilmesinde yetersiz kalması durumunda imkan dahilinde olan bulut çözümlerinin
+    araştırılması planlanmaktadır.
+    
+    \section{Durum Değerlendirilmesi}
+
+    \subsection{Teslim ve Temeltaşlar}
+    Aşağıda, projenin şimdiye kadar kat ettiği merhaleler ayrıntılı olarak ele alınmıştır.
+
+    \subsubsection{Kaynak Araştırması}
+    \paragraph{Açıklama}
+    Bu aşamada yapay öğrenmeye dair araştırmalar gerçekleştirilmiştir. İlgili kaynaklar taranmış ve yapay öğrenmenin uygulama alanları araştırılmıştır.
+    Stanford Üniversitesi'ne ait yapay öğrenme projelerinin ayrıntılı listesine ulaşılıp, yapılmış olan projeler etraflıca tetkik edilmiştir.
+
+    \paragraph{Amaç}
+    Bu görevin amacı, ne türlü projeler yapılabileceğini görüp, istikametimizi tayin etmek olmuştur. 
+    Ayrıca bu sahada kullanılan terminolojiye aşinalık kazanmak hedeflenmiştir.
+
+    \paragraph{Kazanımlar}
+    Yapılan araştırmalar neticesinde, yapay öğrenmenin ses tanımadan, yüz tanımaya pek çok işte kullanıldığı öğrenilmiş,
+     görüntü işlemedeki kullanım alanı dikkatimizi celbetmiştir. Grubumuz, danışman tarafından araştırma alanını
+     daraltmaya yönlendirilmiştir. Ayrıca grubumuz, yine danışman tarafından, derin öğrenme konusunu araştırmaya teşvik edilmiştir.
+
+    \subsubsection{Proje İncelemeleri}
+    \paragraph{Açıklama}
+    Bu aşamada, bir önceki adımda incelenen projelere ilave olarak derin öğrenme ve derin öğrenme projeleri araştırılmıştır. Her üye kendince beğendiği iki projeyi ele almış
+    ve ayrıntılı araştırmıştır. Yapılan araştırmalar raporlanıp danışmana sunulmuştur\footnote{https://github.com/emremrah/deep-learning/blob/master/reports/arastirma/belge.pdf}.
+
+    \paragraph{Amaç}
+    Bu çalışmamızdaki amaç, genelden özele geçiş yapmak, derin öğrenmeyi araştırmak ve bu alandaki projeleri incelemek olmuştur. Herbir üye ikişer proje ele almış, toplam altı proje incelenmiştir. 
+    İncelenen projelerde kullanılan metodların irdelenmesi de bu adımın amaçlarından olmuştur.
+
+    \paragraph{Kazanımlar}
+    Seçilen projelerinin beşinin görüntü işlemeye, birinin doğal dil işlemeye ait olduğu görülmüştür. Bu sonuçtan yola çıkılarak, görüntü işlemeye dair bir proje geliştirme kararı alınmıştır.
+    Grubumuz bu aşamada derin öğrenme uygulamaları geliştirmek için platform seçmeye yönlendirilmiştir. Ayrıca giriş alıştırması mahiyetinde bir uygulama geliştirilmesi istenmiştir.
+    Grubumuz gerekli araştırmaları yapmış ve Python programlama dili ile bu dile ait Keras derin öğrenme kütüphanesini kullanmaya karar vermiştir.
+
+    \subsubsection{Keras ile MNIST Verileri Üzerinde Derin Öğrenme Alıştırması}
+    \paragraph{Açıklama}
+    Bu adımda Keras kütüphanesi kullanılarak eğitim için yaygın bir şekilde kullanılan MNIST el yazısı veri seti ile bir derin öğrenme uygulaması gerçekleştirilmiştir. 
+    Uygulama Python programlama dili ile Jupyter Notebook yazılımı üzerinde geliştirilmiş olup internet üzerinden paylaşılmıştır.\footnote{https://github.com/emremrah/deep-learning/blob/master/src/mnist\_tutorial/keras\_tutorial.ipynb}
+    \paragraph{Amaç}
+    Keras kütüphanesinin kullanım şeklini öğrenmek, bir derin öğrenme modelinin nasıl oluşturulduğunu öğrenmek ana gayemiz olmuştur. Ayrıca verilerin modellenmeden önce geçmesi gereken önişlemlerin
+    öğrenilmesi istenilmiştir.
+
+    \paragraph{Kazanımlar}
+    Derin öğrenmenin uygulanmasına dair tecrübe elde edilmiştir. Derin öğrenmede kullanılan terminoloji hakkında bilgi edinilmiştir. Bu adımdan sonra grubumuz derin öğrenme ile nesne tanıma alıştırması
+    yapmaya teşvik edilmiştir.
+
+    \subsubsection{Keras ile CIFAR-10 Verileri Üzerinde Nesne Sınıflandırma Alıştırması}
+    \paragraph{Açıklama}
+    Keras ile CIFAR-10 verilerini kullanarak nesne tanıma uygulaması gerçekleştirilmiştir.
+    Yapılan uygulama yine Jupyter Notebook formatında internette yayınlanmıştır.\footnote{https://github.com/emremrah/deep-learning/blob/master/src/cifar\_10\_tutorial/cifar\_10\_tutor.ipynb}
+
+    \paragraph{Amaç}
+    Bu çalışmanın amacı Keras kütüphanesini kullanarak nesne tanıma problemine uygun modellerin nasıl geliştirileceği hakkında bilgi sahibi olmak olmuştur.
+    Model performansını etkileyen amiller öğrenilmek istenmiştir. Ayrıca görüntü verilerine has önişlemlerin öğrenilmesi hedeflenmiştir.
+
+    \paragraph{Kazanımlar}
+    Bu çalışmanın sonucunda nesne tanıma probleminin yüksek bir bilgisayar gücü gerektirdiği anlaşılmıştır.
+    Modelin derinleştirilmesi ile performansın artırılabileceği gözlenmiş olsa da, tecrübenin burada büyük rol oynadığı anlaşılmıştır.
+    Keras kütüphanesini kullanmada bir nebze daha yetkinlik kazanılmıştır.
+
+    \subsection{Kaynak ve İhtiyaçlar}
+    Projede bulunulan merhalede daha önce belirtilen kaynak ve ihtiyaçlardan başka gereksinim bulunmamaktadır. Ancak sahip olunan bilgisayar gücünün yetersiz
+    kalması durumunda yeni ihtiyaçlar doğması muhtemeldir.
+
+    \subsection{Bağımlılık Değişiklikleri}
+    Bağımlılıklarda değişiklik olmamıştır.
+
+    \subsection{Gereksinim Değişiklikleri}
+    Gereksinimlerde değişiklik olmamıştır.
+
+\end{document}
+
+

@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {1}Projenin Ger\IeC {\c c}ekle\IeC {\c s}tirilmesi}{1}
+\contentsline {subsection}{\numberline {1.1}Proje Hedefi}{1}
+\contentsline {subsection}{\numberline {1.2}Projede Mevcut A\IeC {\c s}ama}{1}
+\contentsline {subsubsection}{\numberline {1.2.1}Aray\IeC {\"u}z}{1}
+\contentsline {paragraph}{\numberline {1.2.1.1}Kullan\IeC {\i }lan Teknolojiler}{1}
+\contentsline {paragraph}{\numberline {1.2.1.2}Tasar\IeC {\i }msal Olarak Kullan\IeC {\i }lmas\IeC {\i } Planlanm\IeC {\i }\IeC {\c s}, \IeC {\.I}htiya\IeC {\c c} Duyulan Teknolojiler}{1}
+\contentsline {subsubsection}{\numberline {1.2.2}Yaz\IeC {\i }l\IeC {\i }m Sistemi}{1}
+\contentsline {paragraph}{\numberline {1.2.2.1}Kullan\IeC {\i }lan Teknolojiler}{1}
+\contentsline {paragraph}{\numberline {1.2.2.2}Tasar\IeC {\i }msal Olarak Kullan\IeC {\i }lmas\IeC {\i } PLanlanm\IeC {\i }\IeC {\c s}, \IeC {\.I}htiya\IeC {\c c} Duyulan Teknolojiler}{1}
+\contentsline {subsection}{\numberline {1.3}Projeye Dair Planlar}{2}
+\contentsline {subsubsection}{\numberline {1.3.1}Kullan\IeC {\i }lmas\IeC {\i } Planlanan Di\IeC {\u g}er Teknolojiler}{2}
+\contentsline {section}{\numberline {2}Durum De\IeC {\u g}erlendirilmesi}{2}
+\contentsline {subsection}{\numberline {2.1}Teslim ve Temelta\IeC {\c s}lar}{2}
+\contentsline {subsubsection}{\numberline {2.1.1}Kaynak Ara\IeC {\c s}t\IeC {\i }rmas\IeC {\i }}{2}
+\contentsline {paragraph}{\numberline {2.1.1.1}A\IeC {\c c}\IeC {\i }klama}{2}
+\contentsline {paragraph}{\numberline {2.1.1.2}Ama\IeC {\c c}}{2}
+\contentsline {paragraph}{\numberline {2.1.1.3}Kazan\IeC {\i }mlar}{2}
+\contentsline {subsubsection}{\numberline {2.1.2}Proje \IeC {\.I}ncelemeleri}{2}
+\contentsline {paragraph}{\numberline {2.1.2.1}A\IeC {\c c}\IeC {\i }klama}{2}
+\contentsline {paragraph}{\numberline {2.1.2.2}Ama\IeC {\c c}}{3}
+\contentsline {paragraph}{\numberline {2.1.2.3}Kazan\IeC {\i }mlar}{3}
+\contentsline {subsubsection}{\numberline {2.1.3}Keras ile MNIST Verileri \IeC {\"U}zerinde Derin \IeC {\"O}\IeC {\u g}renme Al\IeC {\i }\IeC {\c s}t\IeC {\i }rmas\IeC {\i }}{3}
+\contentsline {paragraph}{\numberline {2.1.3.1}A\IeC {\c c}\IeC {\i }klama}{3}
+\contentsline {paragraph}{\numberline {2.1.3.2}Ama\IeC {\c c}}{3}
+\contentsline {paragraph}{\numberline {2.1.3.3}Kazan\IeC {\i }mlar}{3}
+\contentsline {subsubsection}{\numberline {2.1.4}Keras ile CIFAR-10 Verileri \IeC {\"U}zerinde Nesne S\IeC {\i }n\IeC {\i }fland\IeC {\i }rma Al\IeC {\i }\IeC {\c s}t\IeC {\i }rmas\IeC {\i }}{3}
+\contentsline {paragraph}{\numberline {2.1.4.1}A\IeC {\c c}\IeC {\i }klama}{3}
+\contentsline {paragraph}{\numberline {2.1.4.2}Ama\IeC {\c c}}{4}
+\contentsline {paragraph}{\numberline {2.1.4.3}Kazan\IeC {\i }mlar}{4}
+\contentsline {subsection}{\numberline {2.2}Kaynak ve \IeC {\.I}htiya\IeC {\c c}lar}{4}
+\contentsline {subsection}{\numberline {2.3}Ba\IeC {\u g}\IeC {\i }ml\IeC {\i }l\IeC {\i }k De\IeC {\u g}i\IeC {\c s}iklikleri}{4}
+\contentsline {subsection}{\numberline {2.4}Gereksinim De\IeC {\u g}i\IeC {\c s}iklikleri}{4}

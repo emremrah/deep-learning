@@ -34,6 +34,8 @@
       Revizyon & Tarih & Güncelleyen & Yorum \\[0.5ex]
       \hline\hline
       0.1 & 01.11.2017 & Muhammed Emre Emrah & Belgenin yazılması. \\
+      \hline\hline
+      0.2 & 26.11.2017 & Abdullah Akalın & Kapalı ve yanlış anlaşılmaya müsait ibarelerde düzeltme yapılmıştır. \\
       \hline
       \end{tabu}
    \end{center}
@@ -97,12 +99,12 @@
    \subsection{Araçlar ve Teknikler}
    Bu proje Python dili ile, \textit{Keras} ve/veya \textit{Tensor Flow} kütüphanelerinin yanısıra çeşitli veri bilimi kütüphaneleri kullanılarak geliştirilecektir.
 
-   Tensorflow açık kaynaklı bir yazılım kütüphanesi olup, özellikle de sayısal hesaplamalar ve veri akış grafiklerinde kullanılır. Özelliği, grafikteki düğümler matematiksel operasyonları tanımlarken, bunların aralarındaki bağlantılar da (tensorlar), bu işlemler arsındaki işlemlere tabi tutulan çok boyutlu dizileri temsil eder.
+   Tensorflow açık kaynaklı bir yazılım kütüphanesi olup, özellikle sayısal hesaplamalar ve veri akış grafiklerinde kullanılır. Özelliği, grafikteki düğümler matematiksel operasyonları tanımlarken, bunların aralarındaki bağlantılar da (tensorlar), bu işlemler arsındaki işlemlere tabi tutulan çok boyutlu dizileri temsil eder.
    Esnek bir yapı olan Tensorflow CPU ve GPU hesaplamalarında da kullanılırken, asıl ortaya çıkışı makine öğrenmesi ve derin öğrenme alanındaki ihtiyaçtan kaynaklanmıştır. \cite{tf}
 
    Keras Phyton dilinde yazılmış yüksek seviyeli bir nöral ağ API'si olup, asıl olarak TensorFlow, CNTK ya da Theano kütüphanelerini kullanır. Ortaya çıkmış olan fikirden direkt olarak sonuca ulaşmayı minimum eforla başarmayı amaçlar. Hızlı ve kolay bir şekilde prototiplemeyi sağlar. Özellikle Convolutional Network ve Recurrent Network yöntemlerini uygulamaya geçirmeyi sağlar. Yine Tensorflow gibi CPU ve GPU'yu etkili bir şekilde kullanabilir. \cite{keras}
    
-   Projenin versiyon takibi için \textit{git} yazılımı tercih edilmiştir. Ayrıca grup çalışmasını kolaylaştırmak amacıyla proje için bir \textit{github repository} oluşturulacaktır.
+   Projenin versiyon takibi için \textit{git} yazılımı tercih edilmiştir. Ayrıca grup çalışmasını kolaylaştırmak amacıyla proje için bir \textit{Git Hub sayfası}\footnote{https://github.com/emremrah/deep-learning} oluşturulacaktır.
 
    \section{PROJE YÖNETİM PLANI}
    \subsection{Görevler}
@@ -113,13 +115,13 @@
    Bu görevin nihayetinde ihtiyacımız olan ön bilgiler elde edilmiş olacaktır.
 
    \paragraph{Gerekli Kaynaklar}
-   Gerekli kaynaklar veri setleridir.
+   Gerekli kaynaklar bu konuların ele alındığı kitap ve makalelerdir.
 
    \paragraph{Bağımlılıklar ve Kısıtlar}
-   Elde edilen veri setinin işlenmek için uygun olması gerekmektedir. İşlenmiş veriden gerekli çıkarımların yapılabilmesi gerekmektedir.
+   İnternet üzerinde araştırma yapılabilmesi için internet bağlantısına ihtiyaç vardır.
 
    \paragraph{Riskler}
-   İhtiyaç duyulan verinin elde edilememesi durumunda uygulama yapılamayacaktır.
+   İhtiyaç duyulan bilgilerin elde edilememesi durumunda uygulama yapılamayacaktır.
 
 
    \subsubsection{Verinin Elde Edilmesi ve Hazırlanması}
@@ -130,7 +132,7 @@
    Beklenen çıktılar işlenmiş ve uygulanmaya hazır verilerdir.
 
    \paragraph{Gerekli Kaynaklar}
-   Verinin hazırlanması için dış kaynağa ihtiyaç olmayıp, bazı durumlarda hazırlıkların el ile yapılması gerekebilir.
+   Verinin temini için hazır bir veri seti gerekmektedir. Verinin hazırlanması için dış kaynağa ihtiyaç olmayıp, bazı durumlarda hazırlıkların el ile yapılması gerekebilir.
 
    \paragraph{Bağımlılıklar ve Kısıtlar}
    Temel kısıt, veride var olabilecek pürüzlerdir.
@@ -139,7 +141,7 @@
    İşlenmiş verinin ihtiyacı karşılamaması.
 
 
-   \subsubsection{Modelin Eğitilmesi}
+   \subsubsection{Modelin Tasarlanması}
    \paragraph{Açıklama}
    Bu görevde hazırlanan veriler, kullanılmasında karar kılınan modellerin eğitilmesinde kullanılacaktır.
 
@@ -147,13 +149,13 @@
    Beklenen çıktılar, eğitilmeye uygun modellerdir.
    
    \paragraph{Gerekli Kaynaklar}
-   Algoritmalar ve algoritmalar hakkında bilgi sahibi olunması gerekmektedir.
+   Algoritmalar ve derin öğrenme modelleri hakkında bilgi sahibi olunması gerekmektedir.
 
    \paragraph{Bağımlılıklar ve Kısıtlar}
    Modelin eğitilmesi için verinin yeterli olması gerekmektedir. 
 
    \paragraph{Riskler}
-   Verinin yeterli olmaması halinde model eğitilemeyecektir.
+   Modelin yetersiz olması halinde başarı seviyesi istenen düzeyde olmayacaktır. Verinin yeterli olmaması halinde model eğitilemeyecektir.
 
 
    \subsubsection{Test ve Analiz}
