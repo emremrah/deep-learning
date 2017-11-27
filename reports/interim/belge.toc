@@ -23,8 +23,8 @@
 \contentsline {paragraph}{\numberline {2.1.3.1}A\IeC {\c c}\IeC {\i }klama}{3}
 \contentsline {paragraph}{\numberline {2.1.3.2}Ama\IeC {\c c}}{3}
 \contentsline {paragraph}{\numberline {2.1.3.3}Kazan\IeC {\i }mlar}{3}
-\contentsline {subsubsection}{\numberline {2.1.4}Keras ile CIFAR-10 Verileri \IeC {\"U}zerinde Nesne S\IeC {\i }n\IeC {\i }fland\IeC {\i }rma Al\IeC {\i }\IeC {\c s}t\IeC {\i }rmas\IeC {\i }}{3}
-\contentsline {paragraph}{\numberline {2.1.4.1}A\IeC {\c c}\IeC {\i }klama}{3}
+\contentsline {subsubsection}{\numberline {2.1.4}Keras ile CIFAR-10 Verileri \IeC {\"U}zerinde Nesne S\IeC {\i }n\IeC {\i }fland\IeC {\i }rma Al\IeC {\i }\IeC {\c s}t\IeC {\i }rmas\IeC {\i }}{4}
+\contentsline {paragraph}{\numberline {2.1.4.1}A\IeC {\c c}\IeC {\i }klama}{4}
 \contentsline {paragraph}{\numberline {2.1.4.2}Ama\IeC {\c c}}{4}
 \contentsline {paragraph}{\numberline {2.1.4.3}Kazan\IeC {\i }mlar}{4}
 \contentsline {subsection}{\numberline {2.2}Kaynak ve \IeC {\.I}htiya\IeC {\c c}lar}{4}
